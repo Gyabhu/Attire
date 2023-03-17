@@ -3,7 +3,7 @@
 {% block content %}
 
 <!-- Title page -->
-	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
+	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url({% static 'images/bg-01.jpg' %});">
 		<h2 class="ltext-105 cl0 txt-center">
 			Contact
 		</h2>
@@ -22,7 +22,7 @@
 
 						<div class="bor8 m-b-20 how-pos4-parent">
 							<input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="email" placeholder="Your Email Address">
-							<img class="how-pos4 pointer-none" src="images/icons/icon-email.png" alt="ICON">
+							<img class="how-pos4 pointer-none" src="{% static 'images/icons/icon-email.png' %}" alt="ICON">
 						</div>
 
 						<div class="bor8 m-b-30">
@@ -47,7 +47,7 @@
 							</span>
 
 							<p class="stext-115 cl6 size-213 p-t-18">
-								Coza Store Center 8th floor, 379 Hudson St, New York, NY 10018 US
+								Attire Store, Nakhipot, Lalitpur
 							</p>
 						</div>
 					</div>
@@ -63,7 +63,7 @@
 							</span>
 
 							<p class="stext-115 cl1 size-213 p-t-18">
-								+1 800 1236879
+								+977 9813717919
 							</p>
 						</div>
 					</div>
@@ -79,20 +79,13 @@
 							</span>
 
 							<p class="stext-115 cl1 size-213 p-t-18">
-								contact@example.com
+								sales@attire.com
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>	
-	
-	
-	<!-- Map -->
-	<div class="map">
-		<div class="size-303" id="google_map" data-map-x="40.691446" data-map-y="-73.886787" data-pin="images/icons/pin.png" data-scrollwhell="0" data-draggable="1" data-zoom="11"></div>
-	</div>
-
+	</section>
 
 {% endblock %}

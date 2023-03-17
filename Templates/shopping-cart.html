@@ -1,6 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
+	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url({% static 'images/bg-02.jpg' %});">
+		<h2 class="ltext-105 cl0 txt-center">
+			Cart
+		</h2>
+	</section>
 
 	<!-- breadcrumb -->
 	<div class="container">
@@ -36,10 +41,10 @@
 								<tr class="table_row">
 									<td class="column-1">
 										<div class="how-itemcart1">
-											<img src="images/item-cart-04.jpg" alt="IMG">
+											<img src="{% static 'images/item-cart-04.jpg' %}" alt="IMG">
 										</div>
 									</td>
-									<td class="column-2">Fresh Strawberries</td>
+									<td class="column-2">Red Warm Jacket</td>
 									<td class="column-3">$ 36.00</td>
 									<td class="column-4">
 										<div class="wrap-num-product flex-w m-l-auto m-r-0">
@@ -60,7 +65,7 @@
 								<tr class="table_row">
 									<td class="column-1">
 										<div class="how-itemcart1">
-											<img src="images/item-cart-05.jpg" alt="IMG">
+											<img src="{% static 'images/item-cart-05.jpg' %}" alt="IMG">
 										</div>
 									</td>
 									<td class="column-2">Lightweight Jacket</td>

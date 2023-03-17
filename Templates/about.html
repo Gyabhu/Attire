@@ -2,7 +2,7 @@
 {% load static %}
 {% block content %}
 	<!-- Title page -->
-	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('images/bg-01.jpg');">
+	<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url({% static 'images/bg-01.jpg' %});">
 		<h2 class="ltext-105 cl0 txt-center">
 			About
 		</h2>
@@ -20,7 +20,7 @@
 						</h3>
 
 						<p class="stext-113 cl6 p-b-26">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consequat consequat enim, non auctor massa ultrices non. Morbi sed odio massa. Quisque at vehicula tellus, sed tincidunt augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas varius egestas diam, eu sodales metus scelerisque congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas gravida justo eu arcu egestas convallis. Nullam eu erat bibendum, tempus ipsum eget, dictum enim. Donec non neque ut enim dapibus tincidunt vitae nec augue. Suspendisse potenti. Proin ut est diam. Donec condimentum euismod tortor, eget facilisis diam faucibus et. Morbi a tempor elit.
+							We aim to provide the best quality clothing apparels to our consumers. We are active and young group of people who are egared to cater the best clothing brand in whole of Nepal.
 						</p>
 
 						<p class="stext-113 cl6 p-b-26">
@@ -36,7 +36,7 @@
 				<div class="col-11 col-md-5 col-lg-4 m-lr-auto">
 					<div class="how-bor1 ">
 						<div class="hov-img0">
-							<img src="images/about-01.jpg" alt="IMG">
+							<img src="{% static 'images/about-01.jpg' %}" alt="IMG">
 						</div>
 					</div>
 				</div>
@@ -68,7 +68,7 @@
 				<div class="order-md-1 col-11 col-md-5 col-lg-4 m-lr-auto p-b-30">
 					<div class="how-bor2">
 						<div class="hov-img0">
-							<img src="images/about-02.jpg" alt="IMG">
+							<img src="{% static 'images/about-02.jpg' %}" alt="IMG">
 						</div>
 					</div>
 				</div>
